@@ -14,5 +14,7 @@ docker build -t sabnzbd:armv5 .
 ```bash
  docker run -d \
    -p 58080:58080 \
+   -v ~/docker/sabnzbd/sabnzbd:/config \
+   -v ~/docker/sabnzbd/data:/Downloads
    sabnzbd:armv5
 ```
