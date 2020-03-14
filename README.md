@@ -13,6 +13,6 @@ docker build -t sabnzbd:armv5 .
 # Run
 ```bash
  docker run -d \
-   -p 58080:8080 \
+   -p 58080:58080 \
    sabnzbd:armv5
 ```
