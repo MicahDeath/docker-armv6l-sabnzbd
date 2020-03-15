@@ -2,7 +2,7 @@
 Docker build script for sabnzbd that works on the Raspberry Pi rev B (armv6l)
 
 # Note
-This is not working yet...
+This DOES work, but extremely slow.
 
 # Build
 ```bash
